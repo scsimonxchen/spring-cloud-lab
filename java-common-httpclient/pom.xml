@@ -2,11 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.explorer.dev</groupId>
-    <artifactId>com.java.common.utility.parent</artifactId>
+    <artifactId>java-common-utility-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>org.explorer.dev</groupId>
-  <artifactId>com.java.common.utility.httpclient</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>java-httpclient</name>
+  <artifactId>java-common-httpclient</artifactId>
+  <name>java-common-httpclient</name>
 </project>

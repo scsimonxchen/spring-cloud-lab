@@ -1,0 +1,11 @@
+spring:
+  application:  
+    name: eureka-basic-provider
+    
+server:
+  port: 8281
+
+eureka:
+  client:
+    serviceUrl: 
+      defaultZone: http://eureka1:8181/eureka,http://eureka2:8182/eureka

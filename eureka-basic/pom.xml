@@ -6,10 +6,21 @@
 		<artifactId>spring-cloud-basic</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+	<groupId>org.explorer.dev</groupId>
 	<artifactId>eureka-basic</artifactId>
 	<packaging>pom</packaging>
 	<name>eureka-basic</name>
 	<description>eureka-basic</description>
-	<groupId>org.explorer.dev</groupId>
 	<version>0.0.1-SNAPSHOT</version>
+	<modules>
+		<module>eureka-server</module>
+		<module>eureka-server-ha</module>
+		<module>eureka-provider</module>
+	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
+		</dependency>
+	</dependencies>
 </project>

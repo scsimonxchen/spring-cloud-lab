@@ -10,4 +10,6 @@
 	<packaging>pom</packaging>
 	<name>eureka-basic</name>
 	<description>eureka-basic</description>
+	<groupId>org.explorer.dev</groupId>
+	<version>0.0.1-SNAPSHOT</version>
 </project>

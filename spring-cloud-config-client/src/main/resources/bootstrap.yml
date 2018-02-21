@@ -9,6 +9,11 @@ spring:
       profile: dev
       label: master
        
+management:
+  security:
+    enabled: false      
+
+       
 server:
   port: 8681
 

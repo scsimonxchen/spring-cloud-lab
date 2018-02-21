@@ -16,7 +16,7 @@
 		<module>eureka-server</module>
 		<module>eureka-server-ha</module>
 		<module>eureka-provider</module>
-		<module>Zuul</module>
+		<module>zuul</module>
 	</modules>
 	<dependencies>
 		<dependency>

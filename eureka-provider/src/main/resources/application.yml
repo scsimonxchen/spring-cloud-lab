@@ -1,6 +1,8 @@
 spring:
   application:  
     name: eureka-basic-provider
+  zipkin:
+    base-url: http://localhost:8781
     
 server:
   port: 8281

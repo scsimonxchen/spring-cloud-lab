@@ -1,4 +1,5 @@
 spring:
+  profiles: peer2
   application:  
     name: eureka-basic-server
     
@@ -7,11 +8,11 @@ server:
 
 eureka:
   instance:
-    hostname: eureka2
+    hostname: peer2
   client:
     #是否将自己注册到eureka-server 默认为true
-    #registerWithEureka: false
+    registerWithEureka: false
     #是否从eureka-server获取注册信息，默认为true
-    #fetchRegistry: false
+    fetchRegistry: false
     serviceUrl: 
-      defaultZone: http://eureka1:8181/eureka
+      defaultZone: http://peer1:8181/eureka

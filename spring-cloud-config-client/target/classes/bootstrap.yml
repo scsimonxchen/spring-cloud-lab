@@ -1,4 +1,7 @@
 spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
   application:  
     name: config-client
   cloud:
@@ -21,6 +24,7 @@ eureka:
   client:
     serviceUrl: 
       defaultZone: http://eureka1:8181/eureka,http://eureka2:8182/eureka
+    
 
  
       

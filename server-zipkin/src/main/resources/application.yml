@@ -1,0 +1,6 @@
+spring:
+  application:  
+    name: server-zipkin
+    
+server:
+  port: 8781

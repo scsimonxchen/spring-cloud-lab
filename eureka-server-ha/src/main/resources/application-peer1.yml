@@ -1,0 +1,18 @@
+spring:
+  profiles: peer1
+  application:  
+    name: eureka-basic-server
+    
+server:
+  port: 8181
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    #是否将自己注册到eureka-server 默认为true
+    registerWithEureka: false
+    #是否从eureka-server获取注册信息，默认为true
+    sfetchRegistry: false
+    serviceUrl: 
+      defaultZone: http://peer2:8182/eureka
